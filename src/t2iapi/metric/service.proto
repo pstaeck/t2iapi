@@ -111,4 +111,10 @@ service MetricService {
    */
   rpc ConveyMetricDemoValues (BasicHandleRequest)
       returns (BasicResponse);
+
+    /*
+  Add a new manipulation just to have some changes
+   */
+  rpc TagTesting (BasicHandleRequest)
+      returns (BasicResponse);
 }
